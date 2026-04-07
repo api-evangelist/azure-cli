@@ -5,8 +5,8 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Command Line Interface
   - Cloud Provider CLI
+  - Command Line Interface
 url: >-
   https://raw.githubusercontent.com/api-evangelist/azure-cli/refs/heads/main/apis.yml
 created: '2026-03-25'
@@ -19,8 +19,8 @@ apis:
       Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
     humanURL: https://learn.microsoft.com/en-us/cli/azure/
     tags:
-      - Command Line Interface
       - Cloud Provider CLI
+      - Command Line Interface
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli
