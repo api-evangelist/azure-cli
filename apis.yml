@@ -29,6 +29,10 @@ apis:
   - type: GitHubRepository
     url: https://github.com/Azure/azure-cli
 common:
+- type: VulnerabilityDisclosure
+  url: security/azure-cli-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/azure-cli-domain-security.yml
 - type: Website
   url: https://learn.microsoft.com/en-us/cli/azure/
 - type: Documentation
@@ -94,8 +98,10 @@ common:
   - name: Azure Cloud Shell
     description: Access a pre-configured Azure CLI environment via browser.
   - name: VS Code
-    description: Integrated terminal support and Azure CLI extension for Visual 
+    description: Integrated terminal support and Azure CLI extension for Visual
       Studio Code.
+- url: https://azure.microsoft.com/en-us/blog/feed/atom/
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
