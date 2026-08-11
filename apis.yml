@@ -41,6 +41,19 @@ apis:
   - type: GitHubRepository
     url: https://github.com/Azure/azure-cli
 common:
+- type: IssueTracker
+  url: https://github.com/Azure/azure-cli/issues
+- type: Releases
+  url: https://github.com/Azure/azure-cli/releases
+- type: SecurityPolicy
+  url: https://github.com/Azure/azure-cli/blob/dev/SECURITY.md
+- type: CodeOfConduct
+  url: https://github.com/Azure/azure-cli/blob/dev/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/Azure/azure-cli/blob/dev/CONTRIBUTING.rst
+- type: License
+  name: MIT
+  url: https://github.com/Azure/azure-cli/blob/dev/LICENSE
 - type: VulnerabilityDisclosure
   url: security/azure-cli-vulnerability-disclosure.yml
 - type: DomainSecurity
