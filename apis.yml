@@ -1,5 +1,6 @@
 aid: azure-cli
 name: Azure CLI
+x-parent: microsoft-azure
 description: >-
   Azure CLI is the official cross-platform command-line tool for managing Microsoft
   Azure resources and services from the terminal.
@@ -32,8 +33,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-cli.
 tags:
 - Cloud Provider CLI
 - Command Line Interface
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/azure-cli/refs/heads/main/apis.yml
+url: https://learn.microsoft.com/en-us/cli/azure/
 created: '2026-03-25'
 modified: '2026-04-19'
 specificationVersion: '0.23'
