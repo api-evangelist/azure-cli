@@ -53,6 +53,12 @@ apis:
   - type: GitHubRepository
     url: https://github.com/Azure/azure-cli
 common:
+- type: Plans
+  url: plans/azure-cli-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/azure-cli-rate-limits.yml
+- type: FinOps
+  url: finops/azure-cli-finops.yml
 - type: IssueTracker
   url: https://github.com/Azure/azure-cli/issues
 - type: Releases
