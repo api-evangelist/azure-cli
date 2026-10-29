@@ -66,39 +66,104 @@
 
 Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
 
-## APIs
+**Areas:** Cloud Provider CLI · Command Line Interface
 
-### Azure CLI
-Cross-platform command-line tool for managing Azure resources.
-- **Documentation**: https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli
-- **GitHub**: https://github.com/Azure/azure-cli
+## Azure CLI on APIs.io
 
-## Features
+Everything profiled for Azure CLI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/azure-cli/](https://apis.io/providers/azure-cli/)** — or go straight to one of the APIs or properties below.
 
-- **Cross-Platform Support** — Runs on Windows, macOS, and Linux with identical command syntax.
-- **Interactive Mode** — Shell with auto-complete and inline help for command discovery.
-- **Multiple Output Formats** — Output as JSON, YAML, table, or TSV for pipeline integration.
-- **JMESPath Querying** — Filter and transform output with JMESPath using --query.
-- **Azure Cloud Shell** — Run in the browser via Azure Cloud Shell without installation.
-- **Bash Scripting Integration** — Embed commands in Bash and PowerShell automation scripts.
-- **Extension Support** — Extend functionality with official and community extensions.
-- **Service Principal Auth** — Authenticate with service principals for automated scenarios.
+### APIs (1)
 
-## Use Cases
+- [Azure CLI](https://apis.io/apis/azure-cli/azure-cli/) — Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
 
-- **Resource Provisioning** — Provision Azure resources from the command line.
-- **DevOps Automation** — Automate Azure infrastructure tasks in CI/CD pipelines.
-- **Monitoring and Diagnostics** — Query resource metrics, logs, and health from the terminal.
-- **Batch Operations** — Perform bulk operations across multiple Azure resources.
-- **Infrastructure as Code** — Complement Terraform and Bicep with scripted Azure CLI commands.
+### Published properties
 
-## Links
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Website**: https://learn.microsoft.com/en-us/cli/azure/
-- **Documentation**: https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli
-- **Change Log**: https://learn.microsoft.com/en-us/cli/azure/release-notes-azure-cli
-- **GitHub**: https://github.com/Azure/azure-cli
+#### Security (2)
 
-## Maintainers
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Kin Lane** — kin@apievangelist.com
+- [Azure Cli Domain Security](https://apis.io/security/azure-cli/azure-cli-domain-security/)
+- [Azure Cli Vulnerability Disclosure](https://apis.io/security/azure-cli/azure-cli-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Azure Cli Plans Pricing](https://apis.io/plans/azure-cli/azure-cli-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Azure Cli Rate Limits](https://apis.io/rate-limits/azure-cli/azure-cli-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Azure Cli Finops](https://apis.io/finops/azure-cli/azure-cli-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://learn.microsoft.com/en-us/cli/azure/)
+- [Documentation](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
+- [Getting started](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
+- [Changelog](https://learn.microsoft.com/en-us/cli/azure/release-notes-azure-cli)
+- [Blog](https://azure.microsoft.com/en-us/blog/feed/atom/)
+
+## API Evangelist rating
+
+**Kin Score 24.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 46.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/azure-cli/](https://apis.io/providers/azure-cli/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Azure CLI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/azure-cli/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
